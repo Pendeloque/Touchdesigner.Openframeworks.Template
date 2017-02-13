@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\CPlusPlus_Common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpenFrameworksTOP.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TOP_CPlusPlusBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{35682325-fa71-483b-b728-e681d8566aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{807d4c6d-02ba-4aca-a31b-f59b7b7bba74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\OpenFrameworksTOP.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
