@@ -45,7 +45,7 @@ OpenFrameworksTOP::OpenFrameworksTOP(const OP_NodeInfo* info) : myNodeInfo(info)
   // In the below example my installed TouchDesigner executable is in C:/Program Files/Derivative/TouchDesigner088/bin/ and 
   // my data directory is in C:/of_v0.9.3_vs_release/apps/myApps/inputTexture/bin/data/
   // So below is the relative path from the installed TouchDesigner executable to my data directory:
-  ofSetDataPathRoot("../../../../Development/openframeworks/apps/myApps/TD-InputTexture/bin/data/");
+  ofSetDataPathRoot("./bin/data/");
 }
 
 OpenFrameworksTOP::~OpenFrameworksTOP()
